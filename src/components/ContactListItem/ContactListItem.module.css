@@ -1,0 +1,22 @@
+.contactListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+button{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.15);
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
